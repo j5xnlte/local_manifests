@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="j5xnlte" fetch="https://github.com" revision="cm-14.1" />
+	<project path="vendor/samsung/j5xnlte" name="android_vendor" groups="device" remote="j5xnlte" />
+	<project path="kernel/samsung/msm8916" name="kernel" remote="j5xnlte" />
+	<project path="bootable/recovery-twrp" name="recovery_twrp_nougat" remote="j5xnlte" />
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+	<project path="device/samsung/j5-common" name="android_device_j5-common" groups="device" remote="j5xnlte" />
+	<project path="device/samsung/j5xnlte" name="android_device" groups="device" remote="j5xnlte" />
+	<project path="device/samsung/msm8916-common" name="android_device_msm8916-common" groups="device" remote="j5xnlte" />
+	<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" />
+	<project path="external/busybox" name="LineageOS/android_external_busybox" />
+	<project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
+	<project path="external/stlport" name="LineageOS/android_external_stlport" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+</manifest>
