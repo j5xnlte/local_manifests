@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="j5xnlte" fetch="https://github.com/j5xnlte" revision="lineage-14.1" />
+	<remote name="j5xnlte" fetch="https://github.com/j5xnlte" revision="cm-14.1" />
 	<project path="vendor/samsung/j5xnlte" name="android_vendor" groups="device" remote="j5xnlte" />
 	<project path="kernel/samsung/msm8916" name="kernel" remote="j5xnlte" />
 	<project path="bootable/recovery-twrp" name="recovery_twrp_nougat" remote="j5xnlte" />
